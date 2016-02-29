@@ -1,0 +1,173 @@
+* {
+
+	box-sizing: border-box;
+}
+
+html, body {
+   margin: 0 auto;
+   padding: 0;
+   font-family: "Open Sans", sans-serif; 
+   background-color: #b0e0e6;
+}
+
+.menu {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.border {
+	height: auto;
+	width: auto;
+	border: 2px solid black;
+	margin: 10px;
+	background-color: grey;
+	clear: both;
+	cursor: pointer;
+}
+
+
+.inner {
+	margin-top: 38px;
+}
+
+h1:hover {
+	color: #663399;
+	cursor: pointer;
+
+}
+
+
+
+span {
+	height: 35px;
+	width:  40%;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	background-color: yellow;
+	float: right;
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+span:hover {
+	color: green;
+}
+
+/* SPAN COLORS */
+
+.salmon {
+
+	background-color: #f08080;
+	
+}
+
+.red {
+
+	background-color: #cd5c5c;
+	color: white;
+}
+
+
+
+.gold {
+
+	background-color: #ffd700;
+	
+}
+
+
+.inner p {
+	color: black;
+	font-size: .6em;
+	padding: 7px;
+
+}
+
+/************************
+
+MEDIA QUERIES
+************************/
+
+
+
+/**TABLET**/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.one {
+		width: 47.2%;
+		display: inline-block;
+
+	}
+
+	 
+	.two {
+		width: 47.2%;
+		display: inline-block;
+		float: right;
+	}
+
+	.three {
+		max-width: 100%;
+		clear: both;
+		
+	}
+
+
+}
+
+
+
+/**DESKTOP**/
+
+@media (min-width: 992px) {
+
+
+    .border {
+		width: 30%;
+		display: inline-block;
+	    margin-left: 20px;
+
+	}
+
+
+	/*.one {
+		width: 30%;
+		display: inline-block;
+
+	}
+
+	 
+	.two {
+		width: 30%;
+		display: inline-block;
+		
+	}
+
+	.three {
+		width: 30%;
+		display: inline-block;
+		
+		
+	}
+*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
